@@ -1,0 +1,54 @@
+{
+	"info": {
+		"_postman_id": "c07ce998-9bd6-4985-818d-a9d2f724718f",
+		"name": "nerds.ai",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "1344388"
+	},
+	"item": [
+		{
+			"name": "test",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "text/process",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"text\": \"(Hola (Mundo (Que)) ()) Asdf\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:3000/text/process"
+			},
+			"response": []
+		},
+		{
+			"name": "text/transform",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"text\": \"Hello world! This is a test. Hello again.\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:3000/text/transform"
+			},
+			"response": []
+		}
+	]
+}
