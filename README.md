@@ -16,4 +16,4 @@
     ```
 
 ## Extras
-Incluyo un collection(nerds.ai.postman_collection) de postman con los request a los endpoints
+Incluyo un [collection](nerds.ai.postman_collection) de postman con los request a los endpoints
